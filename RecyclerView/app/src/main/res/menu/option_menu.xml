@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/camera"
+        android:title="Camera"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_camera_alt_24"/>
+
+    <item android:id="@+id/search"
+        android:title="Search"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_search_24"/>
+
+    <item android:id="@+id/group"
+        android:title="New Group" />
+
+    <item android:id="@+id/broadcast"
+        android:title="New broadcast" />
+
+    <item android:id="@+id/devices"
+        android:title="Linked Devices" />
+
+    <item android:id="@+id/message"
+        android:title="Starred messages" />
+
+    <item android:id="@+id/payments"
+        android:title="Payments" />
+
+    <item android:id="@+id/settings"
+        android:title="Settings" />
+
+</menu>

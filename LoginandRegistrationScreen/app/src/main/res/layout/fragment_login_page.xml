@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPageFragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <EditText
+           android:id="@+id/textView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="25dp"
+           android:layout_marginTop="32dp"
+           android:hint="Enter your email"
+           android:inputType="textEmailAddress"
+           android:textColor="@color/black"
+           android:textSize="18sp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <EditText
+           android:id="@+id/textView2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="32dp"
+           android:hint="Confirm a password"
+           android:inputType="textPassword"
+           android:textColor="@color/black"
+           android:textSize="18sp"
+           android:layout_marginHorizontal="25dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="@+id/textView"
+           app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+       <Button
+           android:id="@+id/button"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="25dp"
+           android:text="Login Now"
+           android:textSize="18sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="@+id/textView2"
+           app:layout_constraintStart_toStartOf="@+id/textView2"
+           app:layout_constraintTop_toBottomOf="@+id/textView2"
+           app:layout_constraintVertical_bias="0.18" />
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
